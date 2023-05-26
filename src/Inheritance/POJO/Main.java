@@ -1,9 +1,9 @@
 package Inheritance.POJO;
 
-public class mainPojo {
+public class Main {
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i++){
-            Student stud = new Student("201900001" + i,
+            Interns stud = new Interns("201900001" + i,
                     switch(i){
                         case 1 -> "Jerome Felicilda";
                         case 2 -> "Kathrina Moises";
@@ -16,6 +16,14 @@ public class mainPojo {
                     "JavaRice Practice");
             System.out.println(stud);
         }
+
+        Student stud = new Student("202000001",
+                "Rasty Ferrer",
+                "06/25/1995",
+                "JavaRice Class");
+
+        System.out.println("Name: "+stud.getName()+
+                           "\nClass: " +stud.getSubjectClass());
 
     }
 }

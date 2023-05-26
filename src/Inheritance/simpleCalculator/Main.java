@@ -1,6 +1,6 @@
 package Inheritance.simpleCalculator;
 
-public class calculatorMain {
+public class Main {
     public static void main(String[] args) {
         Calculator calcu = new Calculator();
         calcu.setFirstNumber(5.0);

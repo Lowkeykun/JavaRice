@@ -1,6 +1,6 @@
 package Inheritance.ConstructorChallenge;
 
-public class constructorMain {
+public class Main {
     public static void main(String[] args) {
 
         //calling the main constructor
