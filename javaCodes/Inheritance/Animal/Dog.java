@@ -20,6 +20,7 @@ public class Dog extends Animal{
         this.tailShape = tailShape;
     }
 
+
     @Override
     public String toString() {
         return "Dog{" +

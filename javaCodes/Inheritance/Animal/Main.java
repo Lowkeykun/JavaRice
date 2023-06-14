@@ -11,6 +11,8 @@ public class Main {
         Dog ej = new Dog("Ej",20);
         doAnimalStuff(ej,"slow");
 
+
+
         Dog brownie = new Dog("brownie",50,"Oblong","Spiky");
         doAnimalStuff(brownie,"fast");
 
