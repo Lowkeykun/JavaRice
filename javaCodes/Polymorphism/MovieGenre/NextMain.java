@@ -31,6 +31,17 @@ public class NextMain {
         testSciFi.pauseMovie();
 
 
+        Object test3 = Movie.movieType("C","Harry Potter");
+        if(test3.getClass().getSimpleName().equals( "ScienceFiction")){
+            ScienceFiction testScifi = (ScienceFiction) test3;
+            testScifi.watchMovie();
+        } else if (test3 instanceof Comedy){
+            ((Comedy) test3).watchMovie();
+        } else if (test3 instanceof Adventure testSyfy){
+            testSyfy.watchMovie();
+        }
+
+
 
 
 
